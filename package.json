@@ -1,6 +1,6 @@
 {
   "name": "tjux",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Transform a stream of TAP-formatted test output into JUnit-style XML",
   "author": {
     "name": "Brandon Valosek",
