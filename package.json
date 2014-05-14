@@ -18,5 +18,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:bvalosek/tjux.git"
+  },
+  "devDependencies": {
+    "tape": "^2.12.3"
   }
 }
