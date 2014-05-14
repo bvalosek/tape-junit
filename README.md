@@ -1,14 +1,14 @@
-# tjux
+# tape-junit
 
-[![Build Status](https://travis-ci.org/bvalosek/tjux.png?branch=master)](https://travis-ci.org/bvalosek/tjux)
-[![NPM version](https://badge.fury.io/js/tjux.png)](http://badge.fury.io/js/tjux)
+[![Build Status](https://travis-ci.org/bvalosek/tape-junit.png?branch=master)](https://travis-ci.org/bvalosek/tape-junit)
+[![NPM version](https://badge.fury.io/js/tape-junit.png)](http://badge.fury.io/js/tape-junit)
 
-Transform a stream of TAP-formatted test output into JUnit-style XML.
+Output JUnit XML from tape-driven tests.
 
 ## Installation
 
 ```
-$ npm install tjux
+$ npm install tape-junit
 ```
 
 ## Usage
@@ -28,9 +28,9 @@ Testing is done with [Tape](http://github.com/substack/tape) and can be run
 with the command `npm test`.
 
 Automated CI testing is done with [Travis
-CI](https://travis-ci.org/bvalosek/tjux).
+CI](https://travis-ci.org/bvalosek/tape-junit).
 
 ## License
 Copyright 2014 Brandon Valosek
 
-**tjux** is released under the MIT license.
+**tape-junit** is released under the MIT license.

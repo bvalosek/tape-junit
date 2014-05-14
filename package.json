@@ -1,7 +1,7 @@
 {
-  "name": "tjux",
+  "name": "tape-junit",
   "version": "0.0.1",
-  "description": "Transform a stream of TAP-formatted test output into JUnit-style XML",
+  "description": "Output JUnit XML from tape-driven tests.",
   "author": {
     "name": "Brandon Valosek",
     "email": "bvalosek@gmail.com",
@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git@github.com:bvalosek/tjux.git"
   },
-  "devDependencies": {
+  "dependencies": {
     "tape": "^2.12.3"
   }
 }
