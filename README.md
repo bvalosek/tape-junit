@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/bvalosek/tjux.png?branch=master)](https://travis-ci.org/bvalosek/tjux)
 [![NPM version](https://badge.fury.io/js/tjux.png)](http://badge.fury.io/js/tjux)
 
-A minimal application harness that stays out of your way and out of your code.
+Transform a stream of TAP-formatted test output into JUnit-style XML.
 
 ## Installation
 
