@@ -1,0 +1,22 @@
+{
+  "name": "tjux",
+  "version": "0.0.0",
+  "description": "Transform a stream of TAP-formatted test output into JUnit-style XML",
+  "author": {
+    "name": "Brandon Valosek",
+    "email": "bvalosek@gmail.com",
+    "url": "http://brandon.is/awesome"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bvalosek/tjux.git"
+  }
+}
