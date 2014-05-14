@@ -2,6 +2,13 @@
   "name": "tape-junit",
   "version": "0.0.1",
   "description": "Output JUnit XML from tape-driven tests.",
+  "keywords": [
+    "tap",
+    "test",
+    "harness",
+    "assert",
+    "junit"
+  ],
   "author": {
     "name": "Brandon Valosek",
     "email": "bvalosek@gmail.com",
