@@ -13,7 +13,20 @@ $ npm install tape-junit
 
 ## Usage
 
+To use via [tape](https://github.com/substack/tape)'s streams:
 
+```javascript
+var tape        = require('tape');
+var TapeToJUnit = require('tape-junit');
+
+// Use tape's object stream mode, piped into the transform and then stdout
+tape.createStream({ objectMode: true })
+  .pipe(new TapeToJUnit())
+  .pipe(process.stdout);
+
+// Fire off the tests
+require('./test/my-test.js');
+```
 
 ## Tern Support
 
