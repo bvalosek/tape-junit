@@ -30,7 +30,7 @@
     "url": "git@github.com:bvalosek/tape-junit.git"
   },
   "dependencies": {
-    "glob": "^3.2.9",
-    "tape": "^2.12.3"
+    "glob": "~3.2.9",
+    "tape": "~2.12.3"
   }
 }
