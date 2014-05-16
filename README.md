@@ -5,6 +5,8 @@
 
 Output JUnit XML from tape-driven tests.
 
+> This project is still pre-1.0 and not yet considered stable.
+
 ## Installation
 
 ```
@@ -12,6 +14,14 @@ $ npm install tape-junit
 ```
 
 ## Usage
+
+### Command Line
+
+```
+$ tape-junit tests/**/*.js
+```
+
+### NodeJS
 
 To use via [tape](https://github.com/substack/tape)'s streams:
 
