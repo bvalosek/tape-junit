@@ -29,8 +29,10 @@
     "type": "git",
     "url": "git@github.com:bvalosek/tape-junit.git"
   },
+  "peerDependencies": {
+    "tape": "^3.0.0"
+  },
   "dependencies": {
-    "glob": "~3.2.9",
-    "tape": "~2.12.3"
+    "glob": "~3.2.9"
   }
 }
