@@ -1,6 +1,6 @@
 {
   "name": "tape-junit",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Output JUnit XML from tape-driven tests.",
   "keywords": [
     "tap",
